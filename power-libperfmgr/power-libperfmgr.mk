@@ -5,7 +5,8 @@
 #
 
 PRODUCT_PACKAGES += \
-    libqti-perfd-client
+    android.hardware.power-service.oplus-libperfmgr
 
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    hardware/google/interfaces \
+    hardware/google/pixel
